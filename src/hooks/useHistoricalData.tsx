@@ -22,7 +22,6 @@ export const useHistoricalData = (
   const [error, setError] = useState<any>(null);
   useEffect(() => {
     if (coinList.length == 0) {
-      console.log('AHHHHHHHHHHHHHHHHHHHHHHHH');
       return;
     }
     coinList.forEach(id => {
