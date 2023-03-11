@@ -13,5 +13,12 @@ export interface Item {
 export interface chartCoin {
   // name: string;
   initialInvestment: number;
+  year: number;
   // ?percentage : number
+}
+export interface coinGeckoHistoricalData {
+  yearPrice?: any[];
+  market_caps: Array<Array<Array<number>>>;
+  prices: Array<Array<number>>;
+  total_volumes: Array<Array<number>>;
 }
